@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Prueba FrontEnd Juan Carlos</title>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<link rel="stylesheet" href="css/main.css">
+<link href="//db.onlinewebfonts.com/c/9475d6a0b79c164f9f605673714e75d9?family=Circular+Std+Medium" rel="stylesheet" type="text/css"/>
+<link href="//db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold" rel="stylesheet" type="text/css"/>
+<link href="//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book" rel="stylesheet" type="text/css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+  $(window).scroll(function() {
+    if ($(document).scrollTop() > 150) {
+      $(".container").addClass("onscroll");
+    } else {
+      $(".container").removeClass("onscroll");
+    }
+  });
+});
+</script>
+</head>
+<body>
+
+<header><img src="image/logo.png"></img></header>
+
+<div class="container">
+<div class="slider">
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="Slides fade">
+   
+    <img src="image/product_detail_x1_mobile_MOMENTUM_True_Wireless_2_Case_black_Sennheiser@3x-4.png" style="width:100%">
+    
+  </div>
+
+  <div class="Slides fade">
+    
+    <img src="image/big-MOMENTUM-TRUEWIRELESS2@3x-2.png" style="width:100%">
+   
+  </div>
+
+  <div class="Slides fade">
+    
+    <img src="image/Screen Shot 2020-08-11 at 10.15.55@3x.png" style="width:100%">
+    
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div class="miniaturas">
+  <span class="thumb" onclick="currentSlide(1)"><img src="image/product_detail_x1_mobile_MOMENTUM_True_Wireless_2_Case_black_Sennheiser@2x-5.png" style="width:100%"></span>
+  <span class="thumb" onclick="currentSlide(2)"><img src="image/big-MOMENTUM-TRUEWIRELESS2@3x-3.png" style="width:100%"></span>
+  <span class="thumb" onclick="currentSlide(3)"><img src="image/Screen Shot 2020-08-11 at 10.15-9.png" style="width:100%"></span>
+</div>
+<ul class="feature-list">
+<li><img src="image/custom-tab.png"><span>Customizable touch controls</span></li>
+<li><img src="image/equalizer.png"><span>Built-in Equalizer</span></li>
+<li><img src="image/noise.png"><span>Active Noise Cancellation</span></li>
+</ul>
+</div>
+
+<div class="info">
+<h4 class="release">NEW RELEASE</h4>
+<h1 class="nombre">MOMENTUM True Wireless 2</h1>
+<h3 class="flavor">Earbuds that put Sound first</h3>
+<div class="price">
+<span class="label">STARTING AT</span>
+<span class="precio">$295.95</span>
+</div>
+<div class="descripcion">
+
+<div class="tab">
+  <a class="tablinks" id="abiertoDefault" onclick="callTab(event, 'Overview')">Overview</a>
+  <a class="tablinks" onclick="callTab(event, 'Features')">Features</a>
+  <a class="tablinks" onclick="callTab(event, 'Contents')">What's in the box?</a>
+</div>
+
+<div id="Overview" class="contenidotabs">
+  <p>For the past 75 years, Sennheiser has put sound first. The new MOMENTUM True Wireless 2 is no different. Thanks to leading audio technology and innovation, there new earbuds deliver the best listening experience anytime, anywhere. With improved ergonomics designed for full day wearing and refined for the most discerning listener and aim to simplify your life by enhancing your everyday.</p>
+</div>
+
+<div id="Features" class="contenidotabs">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam ornare laoreet. Aliquam maximus congue leo, in gravida dui consequat eget. Duis volutpat odio nibh, ac venenatis eros vestibulum ut. Donec et eleifend nisl. Cras gravida turpis a augue congue, a cursus diam viverra. Aenean interdum ultricies sem, non semper turpis. Suspendisse potenti.</p>
+</div>
+
+<div id="Contents" class="contenidotabs">
+  <p>Donec venenatis felis eu tempus vestibulum. Integer ut posuere metus, a interdum nisi. Donec vitae mi ornare, pulvinar massa quis, laoreet metus. Aliquam quis porttitor nisl, eget consectetur erat. Duis et erat tellus. Donec malesuada augue eget auctor congue. Sed ut turpis ac eros rutrum convallis.</p>
+</div>
+
+
+
+</div>
+
+<div class="descripcion">
+<h2>Choose your finish</h4>
+<div class="col-2 finish">
+<span class="element">
+<h3>Ivory White</h3>
+<p>For the past 75 years, Senheisar has put sound first. The New MOMENTUM true.</p>
+</span>
+
+<span class="element">
+<h3>Matte Black</h3>
+<p>All of the Celestial bodies that capture our attention and fascination as astronomers.</p>
+</span>
+
+</div>
+</div>
+
+<div class="descripcion">
+<h2>Would you like to add extended warranty coverage?.</h4>
+<div class="col-1 warranty">
+<span class="element">
+<h3>2 year coverage</h3>
+<p>For the past 75 years, Senheisar has put sound first.</p>
+</span>
+<span class="element">
+<div class="basic"><h3>3 year coverage</h3>
+<p>For the past 75 years, Senheisar has put sound first.</p></div><span class="bonus">+$75</span>
+</span>
+
+</div>
+
+
+</div>
+
+<div class="descripcion">
+<h2>Features.</h4>
+
+<div class="col-1 feat">
+<span class="element">
+<h3>Voice Assistan support</h3>
+
+</span>
+<span class="element">
+<div class="basic"><h3>Customizable controls</h3></div><span class="bonus">+$25</span>
+</span>
+
+</div>
+
+</div>
+
+<div class="descripcion">
+<h2>Specifications</h4>
+<div class="specs">
+<span class="item"><label>Dimensions</label><span>76.8 x 43.8 x 34.7mm (earbuds and charging case)</span></span>
+<span class="item"><label>USB Standard</label><span>USB-C</span></span>
+<span class="item"><label>Power Supply</label><span>Sennheiser 7mm dynamic driver</span></span>
+<span class="item"><label>Frequency responsa (Micrphone)</label><span>100 Hz to 10 kHz</span></span>
+<span class="item"><label>Frequency Response</label><span>5 - 21,000Hz</span></span>
+<span class="item"><label>Noise cancellation</label><span>Single-Mic ANC per earbud side</span></span>
+</div>
+</div>
+
+</div>
+</div>
+
+<footer>
+<div class="size-5 desk">
+<h3>Free Shipping</h3>
+<p>Get 2-day free shipping anywhere in North America</p>
+</div>
+
+<div class="size-5 desk">
+<h3>2 years warranty</h3>
+<p>If anything goes wrong in he first two years, we'll replace it for free</p>
+</div>
+<div class="size-5 desk">
+
+</div>
+<div class="size-4">
+<div class="size-2"> 
+<h1>$295.95</h1>
+<p>Need financing? Learn more</p>
+</div>
+<div class="size-2">
+<button>Buy Now</button>
+</div>
+
+</div>
+</footer>
+<script>
+
+
+function callTab(evt, tabName) {
+  var i, contenidotabs, tablinks;
+  contenidotabs = document.getElementsByClassName("contenidotabs");
+  for (i = 0; i < contenidotabs.length; i++) {
+    contenidotabs[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+document.getElementById("abiertoDefault").click();
+
+
+var slideIndex = 1;
+mostrarSlides(slideIndex);
+
+function plusSlides(n) {
+  mostrarSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  mostrarSlides(slideIndex = n);
+}
+
+function mostrarSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("Slides");
+  var thumbs = document.getElementsByClassName("thumb");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < thumbs.length; i++) {
+      thumbs[i].className = thumbs[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  thumbs[slideIndex-1].className += " active";
+}
+
+
+</script>
+</body>
+</html>
